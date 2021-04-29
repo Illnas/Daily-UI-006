@@ -1,0 +1,74 @@
+
+
+/*    Images from Unsplash
+    
+        Philipp Pilz (wolf image): url(https://unsplash.com/photos/QZ2EQuPpQJs);
+        Sam Barber (wilderness image): url(https://unsplash.com/photos/3L4GUciqfhw)
+  
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+
+body {
+    background-image: url('img/Animal\ Kingdom.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+nav {
+    background-color: rgba(208, 255, 161, 0.322);
+}
+
+main {
+    background-color: rgb(233, 180, 180);
+}
+
+.card {
+    width: 18rem;
+    height: 100%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+}
+
+.custom {
+    padding: 0 100px;
+    margin: 30px 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+
+h5, li {
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+@media  (min-width: 320px) and (max-width: 480px)  {
+    .custom {
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .text-center {
+        padding: 0;
+    }
+
+  .container{
+        padding: 5px;
+    }
+ }
+
+
+ @media (min-width: 768px) and (max-width: 1024px) {
+  
+    .custom {
+        padding: 0;
+    }
+
+    
+  }
